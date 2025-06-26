@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea de Tablas</title>
+</head>
+<body>
+    <h1>Tarea de tablas</h1>
+    <h2>Nataly Castro</h2>
+    <hr>
+
+    <h3>Tabla básica de 3x2</h3>
+    <br>
+    <table border="3">
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h3>Dos ejemplos de línea expandida —ROWSPAN—</h3>
+    <br>
+    <table border="3">
+        <tr>
+            <td>item1</td>
+            <td rowspan="2">item2</td>
+            <td>item3</td>
+        </tr>
+        <tr>
+            <td>item4</td>
+            <td>item5</td>
+        </tr>
+    </table>
+
+    <br>
+    <table border="3">
+        <tr>
+            <td rowspan="2">item1</td>
+            <td>item2</td>
+            <td>item3</td>
+            <td>item4</td>
+        </tr>
+        <tr>
+            <td>item5</td>
+            <td>item6</td>
+            <td>iem7</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h3>Ejemplo de columna expandida --COLSPAN--</h3>
+    <br>
+    <table border="3">
+        <tr>
+            <td>item1</td>
+            <td colspan="2">item2</td>
+        </tr>
+        <tr>
+            <td>item3</td>
+            <td>item4</td>
+            <td>item5</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h3>Tablas con cabeceras --TH--</h3>
+    <br>
+    <table border="3">
+        <tr>
+            <th>Head1</th>
+            <th>Head2</th>
+            <th>Head3</th>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h3>Combinación de columna extendida y cabecera</h3>
+    <br>
+    <table border="3">
+        <tr>
+            <th colspan="2">Head1</th>
+            <th colspan="2">Head2</th>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td>E</td>
+            <td>F</td>
+            <td>G</td>
+            <td>H</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h3>combinación de cabeceras multiples y columnas extendidas</h3>
+    <br>
+    <table border="3">
+        <tr>
+            <th colspan="2">Head1</th>
+            <th colspan="2">Head2</th>
+        </tr>
+        <tr>
+            <th>Head3</th>
+            <th>Head4</th>
+            <th>Head5</th>
+            <th>Head6</th>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td>E</td>
+            <td>F</td>
+            <td>G</td>
+            <td>H</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h3>Cabeceras laterales</h3>
+    <br>
+    <table border="3">
+        <tr>
+            <th>Head1</th>
+            <td>item1</td>
+            <td>item2</td>
+            <td>item3</td>
+        </tr>
+        <tr>
+            <th>Head2</th>
+            <td>item4</td>
+            <td>item5</td>
+            <td>item6</td>
+        </tr>
+        <tr>
+            <th>Head3</th>
+            <td>item7</td>
+            <td>item8</td>
+            <td>item9</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h3>Combinación de cabeceras laterales y lineas expandidas</h3>
+    <br>
+    <table border="3">
+        <tr>
+            <th rowspan="2">Head1</th>
+            <td>item1</td>
+            <td>item2</td>
+            <td>item3</td>
+            <td>item4</td>
+        </tr>
+        <tr>
+            <td>item5</td>
+            <td>item6</td>
+            <td>item7</td>
+            <td>item8</td>
+        </tr>
+        <tr>
+            <th>Head2</th>
+            <td>item9</td>
+            <td>item10</td>
+            <td>item11</td>
+            <td>item12</td>
+        </tr>
+    </table>
+</body>
+</html>
